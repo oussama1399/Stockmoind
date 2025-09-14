@@ -1,0 +1,15 @@
+/* Additional styles for App components */
+
+.card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.card p {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+input[type="file"] {
+  margin-right: 1rem;
+}
