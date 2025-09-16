@@ -50,7 +50,7 @@
       "category": "public.app-category.business"
     },
     "win": {
-      "target": "nsis"
+      "target": "portable"
     },
     "linux": {
       "target": "AppImage"
