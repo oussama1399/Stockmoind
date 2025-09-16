@@ -9,10 +9,15 @@
 
 ## ⚡ Quick Download
 
-**Just want to use Stockmind?** Download the latest version:
-[![Download Windows](https://img.shields.io/badge/Download-Windows%20EXE-blue?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/oussama1399/Stockmoind/releases/latest/download/Stockmind.Setup.1.0.0.exe)
+**Just want to use Stockmind?** Download and run immediately - no installation required!
 
-*No installation required for development. Skip to [📥 Downloads](#-downloads) section below.*
+[![Download Portable EXE](https://img.shields.io/badge/Download-Portable%20EXE-green?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/oussama1399/Stockmoind/releases/latest/download/Stockmind.1.0.0.exe)
+
+**🚀 One-click execution**: Download → Double-click → Use immediately!
+
+*No installation required. Skip to [📥 Downloads](#-downloads) section below.*
+
+> **� Pro Tip**: The portable EXE is perfect for quick demos, USB deployment, or systems where you can't install software!
 
 ## ✨ Features
 
@@ -102,10 +107,17 @@ Get the latest pre-built executable for your platform:
 - **Internet**: Required for AI features (optional for basic functionality)
 
 ### Installation Instructions
-1. Download the installer or portable version
-2. Run the installer or extract the portable version
-3. Launch Stockmind from your desktop or start menu
-4. Configure your AI integration (optional)
+
+#### For Portable EXE (Recommended):
+1. **Download** `Stockmind 1.0.0.exe` from the link above
+2. **Double-click** to run immediately - no installation required!
+3. **First launch** may take a few seconds to initialize
+4. **Ready to use** - start managing your stock right away
+
+#### For Development:
+1. Clone the repository and install dependencies
+2. Run `npm run dev` for development mode
+3. Or `npm start` for production desktop app
 
 ## �📋 Usage Guide
 
@@ -126,6 +138,37 @@ Get the latest pre-built executable for your platform:
 - **👥 Customers**: Maintain customer database and relationships
 - **📋 Orders**: Process orders and track fulfillment
 - **🤖 AI Chat**: Get insights and recommendations from AI assistant
+
+## 🎯 Why Choose the Portable EXE?
+
+### ✨ Advantages of Portable Version
+
+**🚀 Instant Usage**
+- **Zero installation time** - Download and run in seconds
+- **No admin rights required** - Works on restricted systems
+- **No system modifications** - Leaves no traces on the host system
+
+**📱 Portability**
+- **USB-ready** - Run from any USB drive or external storage
+- **Multi-device** - Use on multiple computers without reinstallation
+- **Backup friendly** - Easy to backup and restore
+
+**🔧 Maintenance Free**
+- **Self-contained** - All dependencies included
+- **No updates required** - Always runs the bundled version
+- **No conflicts** - Won't interfere with other software
+
+**⚡ Performance**
+- **Optimized bundle** - Smaller footprint than traditional installers
+- **Direct execution** - No launcher delays
+- **Consistent experience** - Same performance across all systems
+
+### 📋 Quick Start with Portable EXE
+
+1. **Download** → `Stockmind 1.0.0.exe` (~92 MB)
+2. **Double-click** → Application launches immediately
+3. **Start using** → No setup wizard or configuration needed
+4. **Close anytime** → Data is automatically saved
 
 ## 🛠️ Development
 
@@ -159,8 +202,8 @@ To create a new release with executable files:
    - Go to [Releases](https://github.com/oussama1399/Stockmoind/releases)
    - Click "Create a new release"
    - Upload the files from the `dist/` folder:
-     - `Stockmind Setup 1.0.0.exe` (Windows installer)
-     - `win-unpacked/` folder (Portable version)
+     - `Stockmind 1.0.0.exe` (Portable executable - **Recommended**)
+     - `win-unpacked/` folder (Alternative portable version)
 
 3. **Tag the release**
    - Use semantic versioning (e.g., `v1.0.0`)
