@@ -111,7 +111,7 @@ body {
 
 .btn-primary {
   background: var(--primary-gradient);
-  color: white;
+  color: black;
   padding: 12px 24px;
   box-shadow: var(--shadow-md);
 }
@@ -413,7 +413,7 @@ body {
 
 .stock-item-category {
   background: var(--primary-gradient);
-  color: white;
+  color: black;
   padding: 6px 12px;
   border-radius: 20px;
   font-size: 0.75rem;
@@ -1817,7 +1817,7 @@ body {
 
 .create-order-btn {
   background: #3498DB;
-  color: white;
+  color: black;
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 25px;
@@ -1996,7 +1996,7 @@ body {
 
 .btn-edit {
   background: #E67E22;
-  color: white;
+  color: black;
 }
 
 .btn-edit:hover {
@@ -2006,7 +2006,7 @@ body {
 
 .btn-delete {
   background: #E74C3C;
-  color: white;
+  color: black;
 }
 
 .btn-delete:hover {
@@ -2016,7 +2016,7 @@ body {
 
 .btn-primary {
   background: #3498DB;
-  color: white;
+  color: black;
   border: none;
   padding: 12px 24px;
   border-radius: 25px;

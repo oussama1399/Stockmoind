@@ -327,13 +327,13 @@ body::before {
 
 .nav button.active {
   background: #2980B9;
-  color: white;
+  color: black;
   box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
   transform: translateY(-1px);
 }
 
 .nav button.active svg {
-  color: white;
+  color: black;
   filter: none;
   animation: none;
 }
@@ -344,7 +344,7 @@ body::before {
   top: -8px;
   right: -8px;
   background: var(--primary-teal);
-  color: white;
+  color: black;
   border-radius: 10px;
   padding: 2px 6px;
   font-size: 0.7rem;
@@ -374,7 +374,7 @@ body::before {
 
 .nav button.active {
   background: linear-gradient(135deg, #2980B9 0%, #2C3E50 100%);
-  color: white;
+  color: black;
   box-shadow: var(--shadow-glow);
   transform: translateY(-2px);
   border-bottom: 3px solid rgba(255, 255, 255, 0.8);
@@ -843,7 +843,7 @@ body::before {
   background: linear-gradient(135deg, #3498DB 0%, #2980B9 100%);
   margin-left: auto;
   margin-right: 0;
-  color: white;
+  color: black;
   border-bottom-right-radius: 4px;
 }
 
@@ -952,7 +952,7 @@ body::before {
 .chat-input-area .btn {
   padding: var(--spacing-md) var(--spacing-xl);
   background: var(--chat-send-button);
-  color: white;
+  color: black;
   border: none;
   border-radius: 50px; /* Pill shape */
   font-weight: var(--font-weight-semibold);
@@ -1034,7 +1034,7 @@ body::before {
 
 .ai-icon {
   font-size: 2rem;
-  color: white;
+  color: black;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
 }
 
@@ -1151,7 +1151,7 @@ body::before {
 
 .example-item:hover {
   background: var(--accent-gradient);
-  color: white;
+  color: black;
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
@@ -1198,12 +1198,12 @@ body::before {
 
 .status-indicator.online {
   background: var(--success-gradient);
-  color: white;
+  color: black;
 }
 
 .status-indicator.typing {
   background: var(--warning-gradient);
-  color: white;
+  color: black;
   animation: typingPulse 1.5s infinite;
 }
 
@@ -1383,7 +1383,7 @@ body::before {
 
 .toggle-visibility-btn:hover {
   background: var(--primary-gradient);
-  color: white;
+  color: black;
   border-color: var(--primary-blue);
 }
 
@@ -1418,7 +1418,7 @@ body::before {
 
 .btn-primary {
   background: var(--primary-gradient);
-  color: white;
+  color: black;
   box-shadow: var(--shadow-md);
 }
 
@@ -1441,7 +1441,7 @@ body::before {
 
 .btn-secondary:hover:not(:disabled) {
   background: var(--primary-gradient);
-  color: white;
+  color: black;
   border-color: var(--primary-blue);
 }
 
@@ -1452,7 +1452,7 @@ body::before {
 
 .btn-danger {
   background: var(--danger-gradient);
-  color: white;
+  color: black;
   box-shadow: var(--shadow-md);
 }
 
@@ -1763,7 +1763,7 @@ body::before {
 @media (prefers-contrast: high) {
   .message-bubble.user .message-content {
     background: var(--text-primary);
-    color: white;
+    color: black;
     border: 2px solid var(--text-primary);
   }
 
@@ -1980,7 +1980,7 @@ select:focus {
 
 .stock-item .category {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  color: black;
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -2010,7 +2010,7 @@ select:focus {
 
 .stock-item .edit-btn {
   background: #fbbf24;
-  color: white;
+  color: black;
 }
 
 .stock-item .edit-btn:hover {
@@ -2020,7 +2020,7 @@ select:focus {
 
 .stock-item .delete-btn {
   background: #ef4444;
-  color: white;
+  color: black;
 }
 
 .stock-item .delete-btn:hover {
@@ -2088,7 +2088,7 @@ select:focus {
 
 .message.user {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  color: black;
   margin-left: auto;
   text-align: right;
 }
@@ -2112,7 +2112,7 @@ select:focus {
   height: 20px;
   border: 3px solid rgba(255, 255, 255, 0.3);
   border-radius: 50%;
-  border-top-color: white;
+  border-top-color: black;
   animation: spin 1s ease-in-out infinite;
 }
 

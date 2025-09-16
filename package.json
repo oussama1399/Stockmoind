@@ -32,6 +32,7 @@
   },
   "homepage": "./",
   "build": {
+    "extends": null,
     "appId": "com.chattypixel.stockmind",
     "productName": "Stockmind",
     "directories": {
@@ -39,9 +40,12 @@
     },
     "files": [
       "build/**/*",
-      "public/electron.js",
+      "main.js",
       "package.json"
     ],
+    "extraMetadata": {
+      "main": "main.js"
+    },
     "mac": {
       "category": "public.app-category.business"
     },

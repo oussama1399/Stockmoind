@@ -7,6 +7,13 @@
 [![Google Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
 [![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)](https://ollama.ai/)
 
+## ⚡ Quick Download
+
+**Just want to use Stockmind?** Download the latest version:
+[![Download Windows](https://img.shields.io/badge/Download-Windows%20EXE-blue?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/oussama1399/Stockmoind/releases/latest/download/Stockmind.Setup.1.0.0.exe)
+
+*No installation required for development. Skip to [📥 Downloads](#-downloads) section below.*
+
 ## ✨ Features
 
 ### 🏪 **Advanced Stock Management**
@@ -77,7 +84,30 @@
    npm start
    ```
 
-## 📋 Usage Guide
+## � Downloads
+
+Get the latest pre-built executable for your platform:
+
+### Windows
+[![Download Windows](https://img.shields.io/badge/Download-Windows%20EXE-blue?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/oussama1399/Stockmoind/releases/latest/download/Stockmind.Setup.1.0.0.exe)
+
+**Alternative Download Options:**
+- **Portable Version** (No installation required): [Stockmind.exe](https://github.com/oussama1399/Stockmoind/releases/latest/download/Stockmind.exe)
+- **Windows Installer**: [Stockmind Setup 1.0.0.exe](https://github.com/oussama1399/Stockmoind/releases/latest/download/Stockmind.Setup.1.0.0.exe)
+
+### System Requirements
+- **OS**: Windows 10/11 (64-bit)
+- **RAM**: 4GB minimum, 8GB recommended
+- **Storage**: 200MB free space
+- **Internet**: Required for AI features (optional for basic functionality)
+
+### Installation Instructions
+1. Download the installer or portable version
+2. Run the installer or extract the portable version
+3. Launch Stockmind from your desktop or start menu
+4. Configure your AI integration (optional)
+
+## �📋 Usage Guide
 
 ### First Time Setup
 1. **Launch the application** using `npm start`
@@ -115,6 +145,26 @@ npm run pack         # Create unpacked directories
 npm run electron     # Run Electron only
 npm run react        # Run React dev server only
 ```
+
+### Creating Releases
+
+To create a new release with executable files:
+
+1. **Build the executables**
+   ```bash
+   npm run dist
+   ```
+
+2. **Create a GitHub Release**
+   - Go to [Releases](https://github.com/oussama1399/Stockmoind/releases)
+   - Click "Create a new release"
+   - Upload the files from the `dist/` folder:
+     - `Stockmind Setup 1.0.0.exe` (Windows installer)
+     - `win-unpacked/` folder (Portable version)
+
+3. **Tag the release**
+   - Use semantic versioning (e.g., `v1.0.0`)
+   - Add release notes describing new features
 
 ### Project Structure
 

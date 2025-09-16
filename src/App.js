@@ -6,6 +6,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import ReactMarkdown from 'react-markdown';
 import UploadData from './UploadData';
 import Settings from './Settings';
+import Footer from './Footer';
 import translations from './translations';
 import {
   FaBox,
@@ -29,7 +30,8 @@ import {
   FaCalendarAlt,
   FaPhone,
   FaEnvelope,
-  FaMapMarkerAlt
+  FaMapMarkerAlt,
+  FaInstagram
 } from 'react-icons/fa';
 function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
@@ -196,7 +198,18 @@ function App() {
         <div className="header-content">
           <div className="brand">
             <div className="brand-icon">■</div>
-            <h1 className="brand-name">Stockmind</h1>
+            <div className="brand-info">
+              <h1 className="brand-name">Stockmind</h1>
+              <p className="brand-subtitle">Développé par ChattyPixel</p>
+              <div className="brand-links">
+                <a href="https://www.instagram.com/chattypixel/" target="_blank" rel="noopener noreferrer" className="brand-link">
+                  <FaInstagram /> Instagram
+                </a>
+                <a href="mailto:chattypixel1612@gmail.com" className="brand-link">
+                  <FaEnvelope /> Email
+                </a>
+              </div>
+            </div>
           </div>
           <div className="header-meta">
             <div className="last-updated">Mis à jour il y a 2 minutes</div>
@@ -1205,6 +1218,7 @@ function OrderManagement({ orders, customers, stockItems, addOrder, updateOrder,
           </div>
         </div>
       )}
+      <Footer />
     </div>
   );
 }
