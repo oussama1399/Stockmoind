@@ -997,7 +997,7 @@ body {
   background: none;
   border: none;
   font-size: 1.5rem;
-  color: #7F8C8D;
+  color: black;
   cursor: pointer;
   padding: 8px;
   border-radius: 50%;
@@ -1267,7 +1267,7 @@ body {
 
 .btn-delete {
   background: rgba(231, 76, 60, 0.8);
-  color: #ECF0F1;
+  color: black;
 }
 
 .btn-delete:hover {
@@ -2064,7 +2064,7 @@ body {
 
 .empty-icon {
   font-size: 3rem;
-  color: #BDC3C7;
+  color: black;
   margin-bottom: 1rem;
 }
 

@@ -58,7 +58,7 @@
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
-  color: #BDC3C7;
+  color: black;
   margin: 0;
   opacity: 0.9;
 }
@@ -73,7 +73,7 @@
   display: flex;
   align-items: center;
   gap: 0.375rem;
-  color: #BDC3C7;
+  color: black;
   text-decoration: none;
   font-size: 0.75rem;
   font-weight: 500;
@@ -100,7 +100,7 @@
 }
 
 .last-updated {
-  color: #BDC3C7;
+  color: black;
   font-size: 0.875rem;
   font-weight: 500;
   padding: 0.5rem 1rem;

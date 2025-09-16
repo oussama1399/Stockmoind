@@ -293,7 +293,7 @@ body::before {
   border: none;
   padding: 0.75rem 1.25rem;
   cursor: pointer;
-  color: #BDC3C7;
+  color: black;
   font-weight: 500;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   border-radius: 25px;
@@ -1880,7 +1880,7 @@ body::before {
 /* Modern Buttons */
 .btn {
   background: linear-gradient(135deg, #3894A3 0%, #2F414F 100%);
-  color: #F1F1EF;
+  color: black;
   border: none;
   padding: 0.875rem 2rem;
   border-radius: 50px;
