@@ -8,6 +8,11 @@ yarn-error.log*
 build/
 dist/
 out/
+*.exe
+*.dmg
+*.pkg
+*.deb
+*.AppImage
 
 # Environment variables
 .env
@@ -18,6 +23,7 @@ out/
 
 # Logs
 logs
+*.log
 *.log
 npm-debug.log*
 yarn-debug.log*

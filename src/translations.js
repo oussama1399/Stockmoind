@@ -1,0 +1,151 @@
+// French localization
+const translations = {
+  // Navigation
+  dashboard: 'Tableau de Bord',
+  stock: 'Stock',
+  customers: 'Clients',
+  orders: 'Commandes',
+  'ai-chat': 'Chat IA',
+  upload: 'Télécharger',
+  settings: 'Paramètres',
+
+  // Dashboard
+  'intelligent-dashboard': 'Tableau de Bord Intelligent',
+  'total-items': 'Articles Totaux',
+  'total-value': 'Valeur Totale',
+  'total-customers': 'Clients Totaux',
+  'total-orders': 'Commandes Totales',
+  'total-revenue': 'Revenus Totaux',
+  'pending-orders': 'Commandes en Attente',
+  'low-stock-alerts': 'Alertes Stock Faible',
+  categories: 'Catégories',
+  'ai-insights': 'Insights IA',
+  optimizations: 'Optimisations disponibles',
+  'stock-health': 'Santé du Stock',
+  'sales-performance': 'Performance des Ventes',
+  excellent: 'Excellent',
+  good: 'Bon',
+  'needs-attention': 'Nécessite Attention',
+  'needs-improvement': 'À Améliorer',
+  strong: 'Fort',
+  yes: 'Oui',
+  no: 'Non',
+
+  // Stock Management
+  'stock-management': 'Gestion du Stock',
+  'add-item': 'Ajouter un Article',
+  'edit-item': 'Modifier l\'Article',
+  'add-new-item': 'Ajouter un Nouvel Article',
+  'item-name': 'Nom de l\'Article',
+  category: 'Catégorie',
+  quantity: 'Quantité',
+  price: 'Prix',
+  'price-mad': 'Prix (MAD)',
+  'stock-items': 'Articles en Stock',
+  'no-items-yet': 'Aucun article pour le moment. Ajoutez des articles de stock.',
+
+  // Customer Management
+  'customer-management': 'Gestion des Clients',
+  'add-customer': 'Ajouter un Client',
+  'edit-customer': 'Modifier le Client',
+  'add-new-customer': 'Ajouter un Nouveau Client',
+  'customer-name': 'Nom du Client',
+  'email-address': 'Adresse Email',
+  'phone-number': 'Numéro de Téléphone',
+  address: 'Adresse',
+  customers: 'Clients',
+  'no-customers-yet': 'Aucun client pour le moment. Ajoutez des clients.',
+
+  // Order Management
+  'order-management': 'Gestion des Commandes',
+  'create-order': 'Créer une Commande',
+  'edit-order': 'Modifier la Commande',
+  'create-new-order': 'Créer une Nouvelle Commande',
+  'select-customer': 'Sélectionner un Client',
+  'add-items-to-order': 'Ajouter des Articles à la Commande',
+  'order-items': 'Articles de Commande',
+  'order-notes': 'Notes de Commande',
+  notes: 'Notes',
+  'notes-optional': 'Notes (optionnel)',
+  status: 'Statut',
+  pending: 'En Attente',
+  processing: 'En Cours',
+  completed: 'Terminé',
+  orders: 'Commandes',
+  'no-orders-yet': 'Aucune commande pour le moment. Créez votre première commande.',
+  date: 'Date',
+  total: 'Total',
+  items: 'Articles',
+
+  // AI Chat
+  'ai-chat-for-insights': 'Chat IA pour Insights (Gemini)',
+  'ask-for-insights': 'Demandez des insights...',
+  send: 'Envoyer',
+
+  // Upload
+  'upload-stock-data': 'Télécharger les Données de Stock (XLSX)',
+  'upload-excel-file': 'Téléchargez un fichier Excel avec les colonnes: nom, quantité, prix, catégorie.',
+
+  // Settings
+  'gemini-api-configuration': 'Configuration de l\'API Gemini',
+  'enter-gemini-api-key': 'Entrez votre clé API Google Gemini pour activer la fonctionnalité de chat IA:',
+  'api-key': 'Clé API',
+  'save-api-key': 'Sauvegarder la Clé API',
+  'clear-api-key': 'Effacer la Clé API',
+  'api-key-saved': '✓ Clé API configurée',
+  'api-key-ready': 'Votre clé API Gemini est définie et prête à être utilisée avec la fonctionnalité de chat IA.',
+  'api-key-required': '⚠ Clé API Requise',
+  'enter-api-key': 'Veuillez entrer votre clé API Gemini ci-dessus pour utiliser la fonctionnalité de chat IA.',
+  'how-to-get-api-key': 'Comment obtenir une clé API Gemini:',
+  'get-api-key-steps': 'Allez sur Google AI Studio, connectez-vous avec votre compte Google, cliquez sur "Créer une clé API", copiez la clé générée, collez-la dans le champ ci-dessus et cliquez sur "Sauvegarder la Clé API".',
+
+  // Common
+  edit: 'Modifier',
+  delete: 'Supprimer',
+  cancel: 'Annuler',
+  update: 'Mettre à Jour',
+  add: 'Ajouter',
+  create: 'Créer',
+  save: 'Sauvegarder',
+  clear: 'Effacer',
+  show: 'Afficher',
+  hide: 'Masquer',
+  name: 'Nom',
+  email: 'Email',
+  phone: 'Téléphone',
+
+  // Status messages
+  excellent: 'Excellent',
+  good: 'Bon',
+  'needs-attention': 'Nécessite Attention',
+  'needs-improvement': 'Nécessite Amélioration',
+  yes: 'Oui',
+  no: 'Non',
+  strong: 'Fort',
+  'call-before-delivery': 'Appeler avant livraison',
+  'company-purchase': 'Achat entreprise',
+  'urgent-delivery-requested': 'Livraison urgente demandée',
+
+  // Sample data translations
+  'laptop-dell-xps-13': 'Ordinateur Portable Dell XPS 13',
+  'wireless-mouse-logitech': 'Souris Sans Fil Logitech',
+  'office-chair-ergonomic': 'Chaise de Bureau Ergonomique',
+  'coffee-beans-premium': 'Grains de Café Premium',
+  'printer-ink-cartridge': 'Cartouche d\'Encre d\'Imprimante',
+  'usb-flash-drive-32gb': 'Clé USB 32GB',
+  'monitor-27-4k': 'Moniteur 27" 4K',
+  'notebook-a4-100-pages': 'Cahier A4 100 pages',
+  'water-bottle-stainless-steel': 'Bouteille d\'Eau Acier Inoxydable',
+  'external-hard-drive-1tb': 'Disque Dur Externe 1TB',
+
+  // Categories
+  electronics: 'Électronique',
+  accessories: 'Accessoires',
+  furniture: 'Mobilier',
+  food: 'Alimentation',
+  supplies: 'Fournitures',
+  storage: 'Stockage',
+  stationery: 'Papeterie'
+};
+
+export default translations;

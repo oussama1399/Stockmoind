@@ -3,16 +3,25 @@ const path = require('path');
 
 function createWindow() {
   const mainWindow = new BrowserWindow({
-    width: 1200,
-    height: 800,
+    width: 1400,
+    height: 900,
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
     },
-    icon: path.join(__dirname, 'assets/icon.png'), // Add icon later
+    title: 'Stockmind - Smart Stock Management',
+    show: false, // Don't show until ready
+    backgroundColor: '#0D0D1B', // Match the app's dark theme
   });
 
-  mainWindow.loadURL('http://localhost:3000'); // For dev, or file:// for production
+  // Load the built React app
+  const startUrl = process.env.ELECTRON_START_URL || `file://${path.join(__dirname, 'build/index.html')}`;
+  mainWindow.loadURL(startUrl);
+
+  // Show window when ready to prevent visual flash
+  mainWindow.once('ready-to-show', () => {
+    mainWindow.show();
+  });
 
   // Open DevTools in development
   if (process.env.NODE_ENV === 'development') {
